@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { DM_Sans } from "next/font/google";
-import clsx from "clsx";
+import { cn } from "@/lib/utils";
 import "./globals.css";
 
 const dmSans = DM_Sans({ subsets: ["latin"] });
@@ -17,7 +17,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={clsx(dmSans.className, "antialiased")}>{children}</body>
+      <body className={cn(dmSans.className, "antialiased")}>{children}</body>
     </html>
   );
 }
