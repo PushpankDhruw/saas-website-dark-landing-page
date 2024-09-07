@@ -2,7 +2,7 @@
 
 Welcome to the Dark SaaS Landing Page This project is designed to help you quickly set up a sleek, dark-themed landing page for your SaaS product.
 
-![Markdown Image](/src/assets//Cover.png)
+<img width="1920" alt="Cover" src="https://github.com/user-attachments/assets/3a702fb1-8021-466c-91fc-465b309ed602">
 
 ## Features
 
